@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity"
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/Head3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#1E000000"
+                android:gravity="center"
+                android:text="QNA Edit"
+                android:textColor="#FBC02D"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/upid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="Id"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="24sp"
+                android:background="@drawable/text_style"/>
+
+            <EditText
+                android:id="@+id/upque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="question"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="24sp"
+                android:background="@drawable/text_style"/>
+
+            <EditText
+                android:id="@+id/upopt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="option1"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="24sp"
+                android:background="@drawable/text_style"/>
+
+            <EditText
+                android:id="@+id/upopt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="option2"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="24sp"
+                android:background="@drawable/text_style"/>
+
+            <EditText
+                android:id="@+id/upopt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="option3"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="24sp"
+                android:background="@drawable/text_style"/>
+
+            <EditText
+                android:id="@+id/upopt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="option4"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="24sp"
+                android:background="@drawable/text_style"/>
+
+            <EditText
+                android:id="@+id/upans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="Ans"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="24sp"
+                android:background="@drawable/text_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/upbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="update"
+                android:onClick="btn_updata"
+                android:background="@drawable/btngradient"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

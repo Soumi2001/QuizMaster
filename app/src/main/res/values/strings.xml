@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz Master</string>
+
+    <string-array name="subtxt">
+        <item>--Select Your Option--</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Python</item>
+    </string-array>
+</resources>
